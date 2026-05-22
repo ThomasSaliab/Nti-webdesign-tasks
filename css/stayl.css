@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.MasterDiv {
+    width: 70%;
+    margin: 5% auto;
+    border: 3px solid gainsboro;
+    border-radius: 10px;
+    display: table;
+    overflow: hidden;
+}
+
+.stail-font {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding: 3%;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(80 178 221);
+    text-align: center;
+}
+
+.stail-font h2,
+.stail-font p {
+    text-align: center;
+}
+
+.Form-Desiner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding: 3%;
+    background-color: rgb(252, 250, 249);
+}
+
+.Form-Title {
+    text-align: center;
+    color: black;
+    margin: 20px;
+}
+
+.Form-Desiner input,
+textarea {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Form-Desiner textarea {
+    height: 100px;
+    /* resize: none; */
+}
+
+.Form-Desiner input[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(80 178 221);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
