@@ -1,0 +1,255 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ .flex {
+     display: flex;
+ }
+
+ .container {
+     width: 80%;
+     margin: auto;
+ }
+
+ .justify-between {
+     justify-content: space-between;
+ }
+
+ .justify-around {
+     justify-content: space-around;
+ }
+
+ .navbar {
+     align-items: center;
+     padding: 20px 0;
+ }
+
+ .main-color {
+     background-color: #285e67;
+ }
+
+ .logo {
+     font-size: 30px;
+     font-weight: bold;
+     color: #285e67;
+ }
+
+ .full-width {
+     width: 100%;
+ }
+
+ .nav-links ul {
+     gap: 20px;
+     font-size: 24px;
+ }
+
+ .hero-section h1 {
+     font-size: 48px;
+     margin-bottom: 15px;
+ }
+
+ .hero-section p {
+     font-size: 18px;
+     color: rgba(169, 169, 169, 0.751);
+     text-align: center;
+ }
+
+ .image-section {
+     margin-top: 3%;
+ }
+
+ .items-center {
+     align-items: center;
+ }
+
+ .align-content {
+     align-content: center;
+ }
+
+ .btn {
+     width: 25%;
+     border-radius: 30px;
+     padding: 6px;
+     color: white;
+     border: none;
+ }
+
+ .image-box {
+     width: 48%;
+ }
+
+ .features-box {
+     background-color: #f4f4f4;
+     border-radius: 10px;
+     padding: 3%;
+ }
+
+ .features-box b {
+     margin-left: 10px;
+ }
+
+ .feature-content {
+     gap: 20px;
+     font-size: 16px;
+ }
+
+ .feature-icon {
+     width: 20%;
+ }
+
+ .feature-card {
+     padding: 18px;
+ }
+
+ .title-row {
+     flex-wrap: wrap;
+ }
+
+ .half-image {
+     width: 50%;
+ }
+
+ .section-title {
+     font-size: 52.52px;
+ }
+
+ .section-content p {
+     margin-top: 10px;
+ }
+
+ .div-section4 p {
+     font-size: 16px;
+     color: rgba(169, 169, 169, 0.751);
+ }
+
+ .feature-item {
+     justify-content: left;
+     margin-top: 10%;
+     gap: 15px;
+ }
+
+ .content-card {
+     justify-content: flex-start;
+ }
+
+ .position-relative {
+     position: relative;
+ }
+
+ footer {
+     background-color: #285e67;
+     height: 250px;
+ }
+
+ .footer-logo {
+     color: #FFFFFF;
+ }
+
+ .footer-ul1 {
+     align-items: end;
+ }
+
+ .height100 {
+     height: 100%;
+ }
+
+ .footer-logo-text {
+     font-size: 24px;
+     margin-bottom: 10%;
+     padding: 5px;
+ }
+
+ .footer-logo-icon {
+     width: 21px;
+ }
+
+ .footer-content {
+     align-items: center;
+ }
+
+ .footer-content li {
+     margin: 20px;
+ }
+
+ .footer-brand {
+     top: -35px;
+     left: 80px;
+ }
+
+ .background-image {
+     background-image: url(./img/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png);
+     height: 667px;
+ }
+
+ .play-button {
+     top: 29%;
+     left: 51%;
+     width: 0;
+ }
+
+ .rounded-section {
+     border-radius: 4px;
+ }
+
+ .play-button img {
+     border: 1px solid #f4f4f4;
+     padding: 10px;
+     border-radius: 15px
+ }
+
+ .hero-overlay {
+     font-size: 40px;
+     margin-top: -8%;
+ }
+
+ .hero-wrapper {
+     text-align: center;
+
+ }
+
+ .button-wrapper {
+
+     position: absolute;
+     background-color: inherit;
+     bottom: 40%;
+     position: absolute;
+     left: 50%
+ }
+
+ .outlined-button {
+     top: 75%;
+     width: 117px;
+     background-color: inherit;
+     border: solid #FFFFFF 2px;
+ }
+
+ .stats-container {
+     width: 75%;
+     margin: auto;
+     background-color: #fce2d7;
+     justify-content: space-evenly;
+     text-align: center;
+     align-items: center;
+     border-radius: 5px;
+     height: 178px;
+ }
+
+ .floating-stats {
+     bottom: 89px;
+ }
+
+ .stats-container img {
+     border: solid black 2px;
+     border-radius: 50%;
+ }
