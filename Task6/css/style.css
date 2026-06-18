@@ -3,21 +3,27 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
 :root {
     --min-display: flex;
     --font-size: 24px;
     --border-none: none;
     --margin-top: 10px;
     --font-bold: bold;
-    --justify-center:center;
-    --width-100:100%;
-    --font-color:#FFFFFF;
-    --margin:15px;
-    --background-linear:linear-gradient(to right, #101828, #233250);
+    --justify-center: center;
+    --width-100: 100%;
+    --font-color: #FFFFFF;
+    --margin: 15px;
+    --background-linear: linear-gradient(to right, #101828, #233250);
     --position-relative: relative;
 }
-body{
+
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr {
+    color: #CECECE80;
 }
 
 .container {
@@ -148,8 +154,9 @@ li a {
     outline: none;
     border-bottom: 0.2px solid;
 }
-.input-search::placeholder{
-   color: white;
+
+.input-search::placeholder {
+    color: white;
 }
 
 .icon-search {
@@ -161,12 +168,14 @@ li a {
 .div-content-ul {
 
     justify-content: var(--justify-center);
-    margin:var(--margin);
+    margin: var(--margin);
 
 }
+
 .ul-phone {
     justify-content: var(--justify-center);
 }
+
 .tital-ul {
     margin-left: 15px;
     font-weight: var(--font-bold);
@@ -185,7 +194,7 @@ li a {
 }
 
 .li-phone:hover {
-    background-image:var(--background-linear);
+    background-image: var(--background-linear);
 }
 
 .li-phone {
@@ -205,7 +214,7 @@ li a {
 
 .card {
     margin-top: 15px;
-
+    margin-bottom: 15px;
 }
 
 .conttet-card {
@@ -263,7 +272,7 @@ li a {
 
 .tital-card {
     display: var(--min-display);
-    justify-content:var(--justify-center);
+    justify-content: var(--justify-center);
     font-size: 20px;
     font-weight: var(--font-bold);
 }
@@ -288,7 +297,7 @@ li a {
 }
 
 .button-background {
-    background-image:var(--background-linear);
+    background-image: var(--background-linear);
 
 }
 
@@ -323,6 +332,7 @@ li a {
     color: #fff;
 
 }
+
 .continar-coling {
     flex-wrap: wrap;
 }
