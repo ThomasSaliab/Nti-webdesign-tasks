@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.card-width {
+    width: calc(100% / 4);
+}
+
+.card {
+    background-color: #f2f9f9;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 13px;
+    overflow: hidden;
+    transition: 0.2s;
+    position: relative;
+}
+
+.card p:nth-child(1) {
+    font-size: 24px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-fill::before {
+    content: "";
+    background-color: #0f928c;
+    position: absolute;
+    left: 100%;
+    bottom: 72%;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.card:hover::before {
+    transform: scale(30);
+}
+
+.card:hover .card-text {
+    color: #fff;
+}
+
+.card-zoom:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 6px 0 gray;
+}
+
+.card-border {
+    transition: box-shadow 1s;
+}
+
+.card-border:hover {
+    box-shadow: 0 0 0 2px #0f928c;
+}
+
+.card-border:hover p:nth-child(3) {
+    color: #0f928c;
+}
+
+.card-arrow {
+    background-color: #0f928c;
+    padding: 12px 15px 4px 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 93%;
+    bottom: 70%;
+}
+
+.card-side {
+    transition: box-shadow 1s;
+}
+
+.side-bar {
+    content: "";
+    padding: 15px;
+    background-image: linear-gradient(to bottom, #bd1f7a, #430b2b);
+    height: 100%;
+    width: 10px;
+    position: absolute;
+    left: 105%;
+    top: 0px;
+    transition: 1s;
+    transform: skew(7deg, 0deg) rotateY(22deg);
+}
+
+.card-side:hover .side-bar {
+    LEFT: 96%;
+}
+
+.side-bar i {
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+.card-side p:nth-child(3) {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.card-side p:nth-child(4) {
+    margin-top: 15px;
+}
+
+.card-side:hover {
+    box-shadow: 0 0 0 2px #bd1f7a;
+}
+
+.card-side img {
+    width: 40px;
+    height: 40px;
+}
+
+.road-img {
+    height: 50vh;
+    width: 100%;
+}
+
+.car-wrap {
+    position: relative;
+    top: 58%;
+}
+
+.car-wrap img {
+    width: 180px;
+    position: absolute;
+    bottom: 114px;
+    animation-name: carRun;
+    animation-duration: 3s;
+}
+
+@keyframes carRun {
+    from {
+        right: 0%;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+.w-half {
+    width: 50%;
+}
+
+.event-card {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.space {
+    margin: 6px 10px;
+}
+
+.event-content {
+    position: absolute;
+    top: 72%;
+    background-color: #fff;
+    height: 100%;
+    color: #9f9d9d;
+    transition: 1s;
+}
+
+.text-dark {
+    color: black;
+}
+
+.event-card:hover .event-content {
+    top: 0;
+}
+
+.event-content p:nth-child(6) {
+    font-size: 18px;
+    margin: 6px 10px;
+}
+
+.event-content a {
+    color: #95d4b0;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.event-content i {
+    position: absolute;
+    top: 10px;
+    left: 90%;
+}
+
+.h-half {
+    height: 50vh;
+}
+
+.gallery {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.image-card {
+    position: relative;
+}
+
+.image-info {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    bottom: 101%;
+    background-color: #cecdcd;
+    top: 0px;
+    transition: 1s;
+    box-shadow: 0 0 27px 2px #939090;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.image-box {
+    position: absolute;
+    transition: 1s;
+    width: 100%;
+    box-shadow: 0 0 27px 2px #939090;
+    height: 100%;
+}
+
+.image-card:hover .image-box {
+    transform: translate(-15%, -20%);
+}
+
+.image-card:hover .image-info {
+    transform: scaleY(0.9);
+}
+
+.info-text p:nth-child(1) {
+    font-size: 24px;
+}
+
+.info-text p:nth-child(2) {
+    font-size: 18px;
+    color: #e6e4e4;
+    margin-bottom: 10px;
+}
+
+
+.flip-front {
+    background-image: url(../img/Rectangle\ 5.png);
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 28px;
+    /* position: absolute; */
+    margin-left: 30%;
+    backface-visibility: hidden;
+
+}
+
+.front-content {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    margin-bottom: 15px;
+}
+
+.front-content button {
+    height: 24%;
+    background-color: inherit;
+    margin-top: 100%;
+    border: none;
+
+}
+
+
+.front-content p {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 100%;
+    width: 50%;
+    transition: 1s;
+}
+
+.flip-back {
+    width: 100%;
+    height: 636px;
+    background-color: #e6e4e4;
+    border-radius: 28px;
+    margin: 0 auto;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+
+.back-content {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+
+}
+
+.back-content p:nth-child(2) {
+    font-size: 24px;
+    color: #1E335C;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.back-content p:nth-child(3) {
+    font-size: 18px;
+    color: #6C7994;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.back-content button {
+    padding: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2.2px solid;
+    border-color: #19ABFE;
+}
+
+.container-button label {
+    color: #19ABFE;
+    margin: 20px;
+    font: 18px;
+}
+
+.container-button {
+    position: relative;
+    left: 56%;
+    top: 80px;
+    width: 40%;
+}
+
+.flip-card {
+    position: relative;
+    transform-style: preserve-3d;
+    /* margin-bottom: 25px; */
+    width: 40%;
+    margin: auto;
+    transition: 1s;
+}
+
+.flip-card:hover {
+    transform: rotateY(180deg);
+}
+
+.flip-card:hover .front-content p {
+    margin-top: 50%;
+}
