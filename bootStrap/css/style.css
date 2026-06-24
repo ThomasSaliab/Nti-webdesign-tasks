@@ -1,0 +1,133 @@
+.bc-img {
+  background-image: url("../img/Image\ Placeholder.png");
+  height: 100%;
+  background-size: cover;
+  padding-bottom: 15px;
+  width: 100%;
+}
+:root {
+  --brand-green: #2DA884;
+  --brand-white: #ffffff;
+}
+.color-bold {
+  color: #232a42;
+
+}
+.color-lorem {
+  color: #525252;
+}
+
+.color-text {
+  color: var(--brand-white);
+}
+
+.color-text-background {
+  /* bg-white */
+background-color: #ffffff;
+}
+
+.color-text-button{
+    color:  var(--brand-green);
+}
+.background-nav-card
+{
+  background-color: var(--brand-green);
+}
+.navbar-nav .nav-link.active{
+color:var(--brand-white);
+
+}
+
+.nav-link {
+  color: var(--brand-white);
+}
+.small-card:hover .card-body{
+  background-color: var(--brand-green);
+  color:var(--brand-white);
+
+}
+.small-card:hover .card-body i{
+  color:var(--brand-white) !important;
+}
+.small-card:hover .card-title span{
+  color: var(--brand-white);
+}
+.card-list:hover p{
+  color: var(--brand-green) !important;
+}
+
+.card-list:hover .background-nav-card {
+  background-color: var(--brand-white);
+  color: var(--brand-green);
+}
+
+.card-list:hover .nav-card button {
+  background-color: var(--brand-green) !important;
+  color: var(--brand-white);
+}
+
+.card-list:hover .card-body h5,
+.card-list:hover .card-body a ,
+.card-list:hover hr{
+  color: var(--brand-white);
+}
+
+.card-list:hover .list-group {
+  background-color: var(--brand-green);
+  color: var(--brand-white) !important;
+}
+.card-list:hover .body-card li p,
+.card-list:hover .body-card li i {
+  color: var(--brand-white) !important;
+}
+ .card-list:hover,
+.card-list:hover .list-group-item,
+.card-list:hover .card-body {
+  background-color: var(--brand-green);
+}
+
+.icon-star{
+  top: 75%;
+  left: 68%;
+}
+.card-tem:hover , .card-tem:hover a{
+  background-color: var(--brand-green);
+  color: var(--brand-white);
+}
+.accordion-button:not(.collapsed){
+    background-color:var(--brand-green);
+    color: var(--brand-white);
+}
+
+.accordion-body:not(.collapsed)   {
+    background-color:var(--brand-green);
+    color: var(--brand-white);
+}
+.accordion-button:focus{
+  box-shadow: none;
+}
+.form-user input::placeholder , .form-user label{
+  color:var(--brand-white);
+  
+}
+input{
+  outline: none;
+}
+a{
+  text-decoration: none;
+  color: var(--brand-white);
+}
+ul li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+ul{
+  padding: 0;
+}
+i{
+  
+  margin: 10px;
+  font-size: 25px;
+
+}

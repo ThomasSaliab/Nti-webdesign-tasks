@@ -1,0 +1,916 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI " crossorigin="anonymous"
+        defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <section class="bc-img">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <a class="navbar-brand text-light fs-2" href="#">EcoSculpt</a>
+                    <button class="navbar-toggler color-text-background" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation ">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link activet" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-success px-4 me-3 rounded-pill" type="submit">
+                                Login
+                            </button>
+                            <button
+                                class="border-0 btn-success color-text-background color-text-button px-4 rounded-pill"
+                                type="submit">
+                                Sign up
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <hr class=" color-text border-3">
+        <div class="container">
+            <div class=" color-text m-auto  ">
+                <h5 class="display-1  my-5 fw-bold   text-center col-lg-6 col-12 m-auto text-center">Gardens of Distinction</h5>
+                <p class=" col-lg-6 col-12 m-auto text-center">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+                    laudantium asperiores temporibus dignissimos maxime ipsum deleniti
+                    earum maiores recusandae distinctio cumque modi unde eligendi
+                    dolores, at molestiae repellat, sint optio!
+                </p>
+            </div>
+            <div class="row mx-auto  flex-nowrap justify-content-center my-5">
+                <button class="btn w-button btn-success  px-3 me-2 rounded-pill col-6 col-lg-2" type="submit">
+                    Get Started
+                </button>
+                <button
+                    class="border-0 w-button btn-success bg-light color-text-button px-3 rounded-pill col-6 col-lg-2 color-text-button"
+                    type="submit">
+                    Learn More
+                </button>
+            </div>
+            <div class="d-none d-md-block">
+                <div class="w-75 mx-auto bg-light rounded-4 my-3 mb-4 row ">
+                    <div class="col-3 pt-3">
+                        <div class="border-end border-dark col-3 w-100">
+                            <p class="w-75 mx-auto fw-bold   text-center display-1  fw-bold   text-center">
+                                15<span class="color-text-button display-1  fw-bold   text-center fw-bold   text-center">+</span>
+                            </p>
+                            <p class="w-75 mx-auto fs-6 color-lorem  text-center">Years Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-3 pt-3">
+                        <div class="border-end border-dark col-3 w-100">
+                            <p class=" mx-auto fw-bold   text-center display-1  fw-bold   text-center">
+                                10K<span class="color-text-button display-1  fw-bold   text-center fw-bold   text-center">+</span>
+                            </p>
+                            <p class="w-75 mx-auto fs-6 color-lorem  text-center">Years Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-3 pt-3">
+                        <div class="border-end border-dark col-3 w-100">
+                            <p class="w-75 mx-auto fw-bold   text-center display-1  fw-bold   text-center">
+                                5K<span class="color-text-button display-1  fw-bold   text-center fw-bold   text-center">+</span>
+                            </p>
+                            <p class="w-75 mx-auto fs-6 color-lorem  text-center">Years Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-3 pt-3">
+                        <div class="col-3 w-100">
+                            <p class="w-75 mx-auto fw-bold   text-center display-1  fw-bold   text-center">
+                                87<span class="color-text-button display-1  fw-bold   text-center fw-bold   text-center">+</span>
+                            </p>
+                            <p class="w-75 mx-auto fs-6 color-lorem  text-center">Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12  col-lg-9 my-5 text-center">
+                    <p class="display-1  fw-bold   text-center color-titel">
+                        Caring For Your <span class="color-text-button">Private Plants</span> , Our
+                        Expertise
+                    </p>
+                    <p class="fs-6 color-lorem   text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut sapien
+                        et ex volutpat tincidunt eget at felis.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+                            <i class="fa-solid fa-crosshairs" style="font-size: 40px; color: rgba(45, 168, 132, 1)"></i>
+                            <p class="fw-bold   text-center mt-2 color-titel">
+                                Our <span class="color-text-button">Mission</span>
+                            </p>
+                            <p class="color-lorem  text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Consequuntur amet nulla ad maxime, sunt itaque, voluptates esse
+                                fugit magni quidem voluptatem temporibus aspernatur iste
+                                incidunt! Aperiam obcaecati iure odit consequuntur.
+                            </p>
+                        </div>
+                        <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+                            <i class="fa-solid fa-circle-notch"
+                                style="font-size: 40px; color: rgba(45, 168, 132, 1)"></i>
+                            <p class="fw-bold   text-center mt-2 color-titel">
+                                Our <span class="color-text-button">Vision</span>
+                            </p>
+                            <p class="color-lorem  text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Consequuntur amet nulla ad maxime, sunt itaque, voluptates esse
+                                fugit magni quidem voluptatem temporibus aspernatur iste
+                                incidunt! Aperiam obcaecati iure odit consequuntur.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img class="col-12 height-img h-100" src="img/Image Placeholder (1).png" alt="" />
+                    </div>
+                </div>
+
+                <div class="row my-5 ">
+                    <div class="col-md-6 d-none d-md-block  ">
+                        <img class="col-12 h-100" src="img/Image Placeholder (2).png" alt="" />
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="display-1  fw-bold   text-center color-titel ">
+                            They <span class="color-text-button">Choose Us</span>
+                        </p>
+                        <p class="color-lorem  text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                            consectetur rerum, quos officiis corrupti accusamus enim, quam
+                            iure quo eaque quaerat. Dicta praesentium exercitationem eum
+                            accusantium itaque, alias repellat tempora?
+                        </p>
+
+                        <div class="my-4">
+                            <div>
+                                <i class="fa-solid fa-square-check display-1  fw-bold   text-center"
+                                    style="color: rgb(45, 168, 132);"></i>
+                                <span class="fs-4">Expertise</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-square-check display-1  fw-bold   text-center"
+                                    style="color: rgb(45, 168, 132);"></i>
+                                <span class="fs-3">Timeliness</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-square-check display-1  fw-bold   text-center"
+                                    style="color: rgb(45, 168, 132);"></i>
+                                <span class="fs-4">Customization</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-square-check display-1  fw-bold   text-center"
+                                    style="color: rgb(45, 168, 132);"></i>
+                                <span class="fs-4">Quality Workmanship</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="mt-5  row">
+                <p class="display-1  fw-bold   text-center  color-titel col-12 col-md-7">
+                    Our landscaping work and
+                    <span class="color-text-button"> services </span>
+                </p>
+                <p class=" color-lorem  text-center col-12 col-md-8">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                    hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut sapien
+                    et ex volutpat tincidunt eget at felis.
+                </p>
+            </div>
+            <div class="row justify-content-around mt-5">
+                <div class="col-12 col-md-6 col-lg-4 my-3 ">
+                    <div class=" card small-card small-card text-bg-light  p-0 shadow border-0 rounded-3">
+                        <div class="card-body transition-1s rounded-3">
+                            <i class="fa-solid fa-tractor fs-2 " style="color: rgb(45, 168, 132)"></i>
+                            <h5 class="card-title">
+                                Lawn <span class="color-text-button">Care</span>
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card’s content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3 ">
+                    <div class="card  small-card text-bg-light shadow border-0 rounded-3">
+                        <div class="card-body transition-1s rounded-3">
+                            <i class="fa-solid fa-wheat-awn fs-2 " style="color: rgb(45, 168, 132)"></i>
+                            <h5 class="card-title">
+                                Tree and <span class="color-text-button">Shrub Care</span>
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card’s content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card  text-bg-light p-0 small-card shadow border-0 rounded-3">
+                        <div class="card-body transition-1s rounded-3">
+                            <i class="fa-solid fa-user-tie fs-2" style="color: rgb(45, 168, 132)"></i>
+                            <h5 class="card-title">
+                                Free <span class="color-text-button">Consultations</span>
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card’s content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card  small-card p-0 text-bg-light shadow border-0 rounded-3">
+                        <div class="card-body transition-1s rounded-3">
+                            <i class="fa-solid fa-hammer fs-2" style="color: rgb(45, 168, 132)"></i>
+                            <h5 class="card-title">
+                                Garden <span class="color-text-button">Design</span>
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card’s content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card small-card text-bg-light p-0 shadow border-0 rounded-3">
+                        <div class="card-body transition-1s rounded-3">
+                            <i class="fa-solid fa-truck-field fs-2" style="color: rgb(45, 168, 132)"></i>
+                            <h5 class="card-title">
+                                Water <span class="color-text-button">Features</span>
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card’s content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card small-card p-0 text-bg-light shadow border-0 rounded-3">
+                        <div class="card-body transition-1s rounded-3">
+                            <i class="fa-solid fa-spa fs-2" style="color: rgb(45, 168, 132)"></i>
+                            <h5 class="card-title">
+                                Irrigation <span class="color-text-button">Systems</span>
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card’s content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="col-12 col-md-8 m-auto mt-5">
+                <h5 class="display-1  fw-bold   text-center m-auto col-8 mt-5 color-titel">
+                    Pricing <span class="color-text-button">Table</span>
+                </h5>
+                <p class="color-lorem  text-center">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus,
+                    amet error? Ipsam veniam tempora corrupti eos perferendis fuga
+                    recusandae quos assumenda rem accusamus, odit, dolorem voluptatem
+                    exercitationem illo soluta repudiandae.
+                </p>
+            </div>
+
+            <div class="mt-5 row justify-content-center">
+                <div class="col-12 col-lg-4 col-md-6 my-5">
+                    <div class="shadow card-list rounded transition-1s">
+                        <div class=" rounded-top background-nav-card ">
+                            <div
+                                class="nav-card  row  justify-content-around align-items-center transition-1s height-nav-card">
+                                <p class="color-text   col-4  my-auto">Basic Plan</p>
+                                <button
+                                    class="color-text-button col-4 rounded-pill p-3 border-0 bg-white color-text-button-background-nav-card my-3">
+                                    Package
+                                </button>
+                            </div>
+                        </div>
+                        <div class=" card-body my-1 transition-1s w-75 m-auto">
+                            <h5 class="card-title w-50 m-auto color-text-button fs-1  fw-bold   text-center">$40.00</h5>
+                            <a
+                                class="card-text color-text-button fs-4 link-underline link-underline-opacity-0 w-50 m-auto d-block">/Per
+                                month</a>
+                        </div>
+
+                        <hr class="color-text-button m-0" />
+                        <div class="p-3 padding-ul transition-1s body-card ">
+                            <ul class="list-group list-group-flush">
+                                <li
+                                    class="list-group-item border-bottom transition-1s border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                </li>
+                                <li
+                                    class="list-group-item border-bottom transition-1s border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                </li>
+                                <li
+                                    class="list-group-item border-bottom transition-1s border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                </li>
+                                <li
+                                    class="list-group-item border-bottom transition-1s border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                    <hr />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p-3">
+                            <div class="footr-card transition-1s">
+                                <button
+                                    class="background-nav-card color-text rounded-pill  p-3 border-0 w-75 mx-auto d-block">
+                                    Basic Plan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 my-5">
+                    <div class="shadow card-list rounded">
+                        <div class=" rounded-top background-nav-card ">
+                            <div
+                                class="nav-card  row  justify-content-around align-items-center transition-1s height-nav-card">
+                                <p class="color-text   col-4  my-auto">Standard Plan</p>
+                                <button
+                                    class="color-text-button col-4 rounded-pill p-3 border-0 bg-white color-text-button-background-nav-card my-3">
+                                    Package
+                                </button>
+                            </div>
+                        </div>
+                        <div class=" card-body my-1 transition-1s w-75 m-auto">
+                            <h5 class="card-title w-50 m-auto color-text-button fs-1  fw-bold   text-center">$80.00</h5>
+                            <a
+                                class="card-text color-text-button fs-4 link-underline link-underline-opacity-0 w-50 m-auto d-block">/Per
+                                month</a>
+                        </div>
+
+                        <hr class="color-text-button m-0" />
+                        <div class="p-3 padding-ul transition-1s body-card ">
+                            <ul class="list-group list-group-flush">
+                                <li
+                                    class="list-group-item border-bottom transition-1s border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                </li>
+                                <li
+                                    class="list-group-item border-bottom transition-1s border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                </li>
+                                <li
+                                    class="list-group-item border-bottom transition-1s border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                </li>
+                                <li
+                                    class="list-group-item border-bottom transition-1s border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                    <hr />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p-3">
+                            <div class="footr-card transition-1s">
+                                <button
+                                    class="background-nav-card color-text rounded-pill  p-3 border-0 w-75 mx-auto d-block">
+                                    Basic Plan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-md-6 my-5">
+                    <div class="shadow card-list rounded">
+                        <div class=" rounded-top background-nav-card ">
+                            <div
+                                class="nav-card  row  justify-content-around align-items-center transition-1s height-nav-card">
+                                <p class="color-text   col-4  my-auto">Premium Plan</p>
+                                <button
+                                    class="color-text-button col-4 rounded-pill p-3 border-0 bg-white color-text-button-background-nav-card my-3">
+                                    Package
+                                </button>
+                            </div>
+                        </div>
+                        <div class=" card-body my-1 transition-1s w-75 m-auto">
+                            <h5 class="card-title w-50 m-auto color-text-button fs-1  fw-bold   text-center">$120.00</h5>
+                            <a
+                                class="card-text color-text-button fs-4 link-underline link-underline-opacity-0 w-50 m-auto d-block">/Per
+                                month</a>
+                        </div>
+
+                        <hr class="color-text-button m-0" />
+                        <div class="p-3 padding-ul body-card ">
+                            <ul class="list-group list-group-flush">
+                                <li
+                                    class="list-group-item border-bottom  border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                </li>
+                                <li
+                                    class="list-group-item border-bottom  border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                </li>
+                                <li
+                                    class="list-group-item border-bottom  border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                </li>
+                                <li
+                                    class="list-group-item border-bottom  border-success-subtle d-flex align-items-center justify-content-center">
+                                    <i class="fa-regular fs-3 p-2 fa-circle-check" style="color: rgb(45, 168, 132)"></i>
+                                    <p class="my-0 color-text-button">Initial Consultation</p>
+                                    <hr />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p-3">
+                            <div class="footr-card ">
+                                <button
+                                    class="background-nav-card color-text rounded-pill  p-3 border-0 w-75 mx-auto d-block">
+                                    Basic Plan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="mt-5">
+                <h5 class="col-12 col-md-8 m-auto display-1  fw-bold   text-center my-3">
+                    Our <span class="text-color color-text-button"> Gallery </span>
+                </h5>
+                <p class="col-12 col-md-6 m-auto color-lorem  text-center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+                    suscipit voluptates maxime vitae a, rem repellendus, obcaecati eius
+                    repudiandae qui quas minus provident non excepturi ullam magnam
+                    minima ut quae.
+                </p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 p-3">
+                    <img class="col-12 h-100 height-img-cards" src="img/Image Placeholder (4).png" alt="" />
+                </div>
+                <div class="col-12 col-md-4 p-3 mb-5">
+                    <div class="row">
+                        <img class="col-6 h-100" src="img/Image Placeholder (6).png" alt="" />
+                        <img class="col-6 h-100" src="img/Image Placeholder (5).png" alt="" />
+                    </div>
+                    <img class="col-12 pt-3  height-img " src="img/Image Placeholder (7).png" alt="" />
+                </div>
+                <div class="col-12 col-md-4 p-3">
+                    <img class="height-img-cards h-100 col-12" src="img/Image Placeholder (3).png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="mt-5">
+                <h5 class="col-12 col-md-9 m-auto display-1  fw-bold   text-center my-3 color-titel">
+                    See What They Are Sayingt
+                    <span class=" color-text-button  m-auto  "> About EcoSculp </span>
+                </h5>
+                <p class=" col-12 col-md-8 m-auto color-lorem  text-center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+                    suscipit voluptates maxime vitae a, rem repellendus, obcaecati eius
+                    repudiandae qui quas minus provident non excepturi ullam magnam
+                    minima ut quae.
+                </p>
+            </div>
+            <div class="row mt-5 justify-content-around">
+                <div class="p-3 col-12  col-md-6 ">
+                    <div class="card col-10 mx-auto p-3 position-relative rounded-4  card-tem shadow border-0">
+                        <img class="rounded-pill position-absolute top-50 start-0 translate-middle"
+                            src="img/image 19.png" alt="" />
+                        <p class="card-text my-4 m-auto w-75">
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card’s content.
+                        </p>
+                        <a href="#"
+                            class="mx-auto w-75 color-link link-underline link-underline-opacity-0 fs-4 color-bold  ">Eko
+                            Susiloanto</a>
+                        <a href="#"
+                            class="mx-auto w-75 fw-light color-link link-underline fs-6 link-underline-opacity-0 color-bold  ">Regional
+                            Mobility Manager</a>
+                        <img class="w-25 position-absolute icon-star" src="./img/Frame 14.png" alt="" />
+                    </div>
+                </div>
+                <div class="p-3 col-12 col-md-6 ">
+                    <div class="card col-10 mx-auto p-3 position-relative rounded-4  card-tem shadow border-0">
+                        <img class="rounded-pill position-absolute top-50 start-0 translate-middle"
+                            src="img/image 19.png" alt="" />
+                        <p class="card-text my-4 m-auto w-75">
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card’s content.
+                        </p>
+                        <a href="#"
+                            class="mx-auto w-75 color-link link-underline link-underline-opacity-0 fs-4 color-bold  ">Eko
+                            Susiloanto</a>
+                        <a href="#"
+                            class="mx-auto w-75 fw-light color-link link-underline fs-6 link-underline-opacity-0 color-bold  ">Regional
+                            Mobility Manager</a>
+                        <img class="w-25 position-absolute icon-star" src="./img/Frame 14.png" alt="" />
+                    </div>
+                </div>
+                <div class="p-3 col-12 col-md-6 ">
+                    <div class="card col-10 mx-auto p-3 position-relative rounded-4  card-tem shadow border-0">
+                        <img class="rounded-pill position-absolute top-50 start-0 translate-middle"
+                            src="img/image 19.png" alt="" />
+                        <p class="card-text my-4 m-auto w-75">
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card’s content.
+                        </p>
+                        <a href="#"
+                            class="mx-auto w-75 color-link link-underline link-underline-opacity-0 fs-4 color-bold  ">Eko
+                            Susiloanto</a>
+                        <a href="#"
+                            class="mx-auto w-75 fw-light color-link link-underline fs-6 link-underline-opacity-0 color-bold  ">Regional
+                            Mobility Manager</a>
+                        <img class="w-25 position-absolute icon-star" src="./img/Frame 14.png" alt="" />
+                    </div>
+                </div>
+                <div class="p-3 col-12  col-md-6 ">
+                    <div class="card col-10 mx-auto p-3 position-relative rounded-4  card-tem shadow border-0">
+                        <img class="rounded-pill position-absolute top-50 start-0 translate-middle"
+                            src="img/image 19.png" alt="" />
+                        <p class="card-text my-4 m-auto w-75">
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card’s content.
+                        </p>
+                        <a href="#"
+                            class="mx-auto w-75 color-link link-underline link-underline-opacity-0 fs-4 color-bold  ">Eko
+                            Susiloanto</a>
+                        <a href="#"
+                            class="mx-auto w-75 fw-light color-link link-underline fs-6 link-underline-opacity-0 color-bold  ">Regional
+                            Mobility Manager</a>
+                        <img class="w-25 position-absolute icon-star" src="./img/Frame 14.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="mt-5 w-100">
+                <h5 class="col-12 col-md-8 m-auto display-1  fw-bold   text-center my-3">
+                    Frequently Asked <span class=" color-text-button"> Questions </span>
+                </h5>
+                <p class="col-12 col-md-8 m-auto color-lorem  text-center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+                    suscipit voluptates maxime vitae a, rem repellendus, obcaecati eius
+                    repudiandae qui quas minus provident non excepturi ullam magnam
+                    minima ut quae.
+                </p>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item my-3 shadow rounded-0">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button border-0 rounded-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Do you specialize in both residential and commercial
+                            landscaping?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item’s accordion body.</strong> It is
+                            shown by default, until the collapse plugin adds the appropriate
+                            classes that we use to style each element. These classes
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-3 shadow  ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Do you provide sustainable and eco-friendly landscaping options?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item’s accordion body.</strong> It is
+                            hidden by default, until the collapse plugin adds the
+                            appropriate classes that we use to style each element. These
+                            classes
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-3 shadow ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How do I request a consultation or estimate for my landscaping
+                            project?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item’s accordion body.</strong> It is
+                            hidden by default, until the collapse plugin adds the
+                            appropriate classes that we use to style each element. These
+                            classes
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-3 shadow border-0">
+                    <h2 class="accordion-header color-titel ">
+                        <button class="accordion-button border-0 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefor" aria-expanded="false" aria-controls="#collapsefor">
+                            What factors influence the cost of a landscaping project?
+                        </button>
+                    </h2>
+                    <div id="collapsefor" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item’s accordion body.</strong> It is
+                            hidden by default, until the collapse plugin adds the
+                            appropriate classes that we use to style each element. These
+                            classes control the overall
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-3 shadow ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse5" aria-expanded="false" aria-controls="#collapse5">
+                            How often should I schedule landscape maintenance services?
+                        </button>
+                    </h2>
+                    <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item’s accordion body.</strong> It is
+                            hidden by default, until the collapse plugin adds the
+                            appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing
+                            and hiding via CSS transitions. You can modify any of
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="my-5 w-100">
+                <h5 class="col-12 display-1  fw-bold   text-center col-md-6 m-auto color-bold">
+                    Blog And <span class="color-text-button"> Articles </span>
+                </h5>
+                <p class="col-12 col-md-6 m-auto color-lorem  text-center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+                    suscipit voluptates maxime vitae a, rem repellendus, obcaecati eius
+                    repudiandae qui quas minus provident non excepturi ullam magnam
+                    minima ut quae.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 p-0 ">
+                    <div class="p-3 ">
+                        <img class="col-12 rounded-0" src="img/Articles.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <p class="color-text-button fs-3">Tips</p>
+                            <h5 class=" color-bold">Choosing the Right Plants for Your Climate Zone</h5>
+                            <div class="d-flex align-items-center py-3">
+                                <i class="fa-regular fa-message" style="color: rgb(45, 168, 132)"></i>
+                                <span class="px-2">10</span>
+                                <i class="fa-regular fa-eye" style="color: rgb(45, 168, 132)"></i>
+                                <span class="px-2">10k</span>
+                                <i class="fa-regular fa-clock" style="color: rgb(45, 168, 132)"></i>
+                                <span class="px-2">5 min ago</span>
+                            </div>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card’s content.
+                            </p>
+                            <button
+                                class=" background-nav-card my-3 rounded-pill p-3 border-0  text-white w-100 mx-auto d-block">
+                                Basic Plan
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 p-0 ">
+                    <div class="p-3 ">
+                        <img src="img/Articles (1).png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <p class="color-text-button fs-3">Insight</p>
+                            <h5 class=" color-bold">How to Create a Low Maintenance Landscape</h5>
+                            <div class="d-flex align-items-center py-3">
+                                <i class="fa-regular fa-message" style="color: rgb(45, 168, 132)"></i>
+                                <span class="px-2">50</span>
+                                <i class="fa-regular fa-eye" style="color: rgb(45, 168, 132)"></i>
+                                <span class="px-2">15k</span>
+                                <i class="fa-regular fa-clock" style="color: rgb(45, 168, 132)"></i>
+                                <span class="px-2">7min ago</span>
+                            </div>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card’s content.</p>
+                            <button
+                                class=" background-nav-card my-3 rounded-pill p-3 border-0  text-white w-100 mx-auto d-block">
+                                Basic Plan
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4  p-0 ">
+                    <div class="p-3">
+                        <img src="img/Articles (2).png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <p class="color-text-button fs-3">Insight</p>
+                            <h5 class=" color-bold">Landscaping Trends for the Modern Homeowner</h5>
+                            <div class="d-flex align-items-center py-3">
+                                <i class="fa-regular fa-message" style="color: rgb(45, 168, 132)"></i>
+                                <span class="px-2">100</span>
+                                <i class="fa-regular fa-eye" style="color: rgb(45, 168, 132)"></i>
+                                <span class="px-2">20k</span>
+                                <i class="fa-regular fa-clock" style="color: rgb(45, 168, 132)"></i>
+                                <span class="px-2">10 min ago</span>
+                            </div>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card’s content.
+                            </p>
+                            <button
+                                class=" background-nav-card my-3 rounded-pill p-3 border-0  text-white w-100 mx-auto d-block">
+                                Basic Plan
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div>
+                <div class="mt-5 w-100">
+                    <h5 class="col-12 col-md-8 m-auto display-1  fw-bold   text-center my-3 color-text-button">Contact
+                        <span class="color-bold "> Us </span>
+                    </h5>
+                    <p class="col-12 col-md-6  m-auto color-lorem  text-center">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+                        suscipit voluptates maxime vitae a, rem repellendus, obcaecati eius
+                        repudiandae qui quas minus provident non excepturi ullam magnam
+                        minima ut quae.
+                    </p>
+                </div>
+                <div class="row my-5">
+                    <div class="col-md-6 d-none d-md-block p-0 rounded-start-4">
+                        <img class="col-12 h-100 rounded-start-4" src="img/image 29.png" alt="">
+                    </div>
+                    <form class="col-md-6 col-12 background-nav-card row m-0 p-5 form-user  rounded-end-4 border-form"
+                        action="">
+
+                        <label class="col-12  my-2 fs-3 fw-bold   text-center" for="">Full name</label>
+                        <input
+                            class="col-12 form-control-lg rounded-pill border-white background-nav-card ms-2 border border-2"
+                            type="text" placeholder=" Full name">
+
+
+                        <label class="col-12 my-2 fs-3 fw-bold   text-center" for="">lest name</label>
+                        <input
+                            class="col-12 form-control-lg rounded-pill border-white background-nav-card ms-2 border border-2"
+                            type="text" placeholder="lest name">
+
+                        <label class="col-12 my-2 fs-3 fw-bold   text-center" for="">Email name</label>
+                        <input
+                            class="col-12 form-control-lg rounded-pill border-white background-nav-card ms-2 border border-2"
+                            type="email" placeholder="Enter your email">
+
+                        <label class="col-12 my-2 fs-3 fw-bold   text-center" for="">Message</label>
+                        <input
+                            class="col-12 form-control-lg rounded-pill border-white background-nav-card ms-2 border border-2"
+                            type="text" placeholder="Enter your Message">
+                        <button
+                            class="col-12 form-control-lg rounded-pill border-white  border border-2 color-text-button color-text-background mt-3 ">Read
+                            More</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="background-nav-card">
+        <div class="container">
+            <div class="row justify-content-around p-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="col-12 color-text">EcoSculpt</h5>
+                    <p class="color-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus facilis
+                        omnis repellat, commodi
+                        nulla dolorem rerum aut fuga repellendus culpa pariatur non, deserunt totam et dicta similique?
+                        Dolorum, consequatur ipsam!</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="col-12 color-text">Quick Links</h5>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="col-12 color-text">Contact Us</h5>
+                    <ul>
+                        <li> <i class="fa-regular fa-envelope" style="color: hsl(0, 0%, 100%);"></i>
+                            <a href="">hello@website.com</a>
+                        </li>
+
+
+                        <li>
+                            <i class="fa-solid fa-location-dot" style="color: hsl(0, 0%, 100%)"></i><a href="">Riverside
+                                Building, County Hall, London SE1 7PB, United Kingdom</a>
+                        </li>
+                        <li> <i class="fa-solid fa-phone" style="color: hsl(0, 0%, 100%);"></i><a href="">+02
+                                5421234560</a></li>
+                    </ul>
+                </div>
+                <div class="d-flex align-items-center col-12 col-md-6 col-lg-3 ">
+                    <div class=" ">
+                        <h5 class="col-12 color-text">Follow Us</h5>
+                        <div>
+                            <i class="fa-brands fa-twitter" style="color: hsl(0, 0%, 100%);"></i>
+                            <i class="fa-brands fa-instagram" style="color: hsl(0, 0%, 100%);"></i>
+                            <i class="fa-brands fa-square-facebook" style="color: hsl(0, 0%, 100%);"></i>
+                            <i class="fa-brands fa-youtube" style="color: hsl(0, 0%, 100%);"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

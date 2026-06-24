@@ -1,0 +1,27 @@
+@media (max-width: 575.98px) { 
+    .height-img{
+        height: 55%;
+    }
+ }
+ @media (min-width: 768.98px) { 
+    .height-img{
+        height: 71%;
+    }
+   
+ }
+ @media (min-width: 992px) { 
+    .height-img{
+        height: 64%;
+    }
+ }
+ @media (min-width: 1200px) { 
+     .height-img{
+        height: 61%;
+    }
+  }
+@media (max-width: 768.98px) {
+.border-form{
+     border-radius: 20px;
+}
+
+ }
