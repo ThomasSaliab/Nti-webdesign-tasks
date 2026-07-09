@@ -150,7 +150,8 @@ body {
     position: absolute;
     bottom: 114px;
     animation-name: carRun;
-    animation-duration: 3s;
+    animation-duration: 10s;
+
 }
 
 @keyframes carRun {
